@@ -1,4 +1,4 @@
 # DayDot
 Fechado rapido y correcto
 
-![logo](imagen.png)
+![logo](https://github.com/Pier014/DayDot/blob/main/image.png)
