@@ -2,7 +2,7 @@
  
 Herramienta web para calcular con facilidad y exactitud la fecha de vencimiento que se escribe en los DayDots, a partir del tiempo de vida de un producto.
 
-Puedes usarlo aquí: 
+Puedes usarlo aquí: https://pier014.github.io/DayDot/
 
 ## ¿Cómo funciona?
  
