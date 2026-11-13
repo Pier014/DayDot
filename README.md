@@ -1,8 +1,23 @@
-# DayDot
-Fechado rapido y correcto
+# Fechador DayDots
+ 
+Herramienta web para calcular con facilidad y exactitud la fecha de vencimiento que se escribe en los DayDots, a partir del tiempo de vida de un producto.
 
-Recomiendo usar esta compilador online: https://onecompiler.com/python
+Puedes usarlo aquí: 
 
+## ¿Cómo funciona?
+ 
+1. Elige la **hora de fechado** (10 pm y 11 pm son las más frecuentes, pero están disponibles las 24 horas).
+2. Ingresa el **tiempo de vida** del producto en días, o usa los botones rápidos (1, 3, 4, 5, 7, 10, 15, 30, 90 y 180 días).
+3. Obtén el DayDot listo, por ejemplo: `Viernes 20/11/2026 10 pm`.
+El cálculo suma el tiempo de vida a la fecha de hoy y resta 1 día para contar el día actual.
+
+## Características
+ 
+- Selector de hora de fechado, con las horas más usadas a la mano.
+- Botones rápidos de tiempo de vida.
+- Historial de los últimos 5 cálculos.
+
+Diseñado originalmente en Python y migrado a JavaScript con interfaz web en HTML.
 ```python
 from datetime import date, timedelta
 
@@ -36,5 +51,3 @@ while True:
 
 print("Saliendo...")
 ```
-
-![logo](https://github.com/Pier014/DayDot/blob/main/image.png)
